@@ -1,4 +1,4 @@
-# tenant-notebook — a first T3N Agent Dev Kit contract
+# Tenant-notebook 
 
 Agent ID, test credits, and a deployed Rust contract on Terminal3's T3N testnet.
 
@@ -156,5 +156,3 @@ raw private key.
   repository link — the "Create Tenant KV Maps" doc was accurate and saved
   real time; the rest of the SDK-facing docs would benefit from the same
   level of care.
-
-Full code, WIT interface, and registration scripts: **https://github.com/Takumixbt/t3n-tenant-notebook**
