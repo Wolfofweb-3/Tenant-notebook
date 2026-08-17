@@ -1,0 +1,28 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "tenant-notebook agent",
+  "description": "Reads/writes a private per-tenant KV note via a T3N TEE contract (Superteam/LOL Ventures ADK bounty entry)",
+  "services": [
+    {
+      "name": "A2A",
+      "endpoint": "https://agent.example/.well-known/agent-card.json",
+      "version": "0.3.0"
+    },
+    {
+      "name": "MCP",
+      "endpoint": "https://mcp.agent.example/",
+      "version": "2025-06-18"
+    },
+    {
+      "name": "DID",
+      "endpoint": "did:t3n:f924769a5dc542faae536b178dd6f8afe9bb5e73",
+      "version": "v1"
+    }
+  ],
+  "x402Support": false,
+  "active": true,
+  "registrations": [],
+  "supportedTrust": [
+    "tee-attestation"
+  ]
+}
